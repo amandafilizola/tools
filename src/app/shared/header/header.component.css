@@ -1,0 +1,47 @@
+@media only screen and (min-width: 700px) {
+    .navbar {
+        margin:0;
+        padding:0;
+        border-bottom: 1px solid black;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .navbar ul {
+        margin: 0;
+        padding: 0;
+        width: 70%;
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        font-family: 'Century Gothic';
+        font-size: 22px;
+        /* font-weight: bold; */
+        color:#29166f;
+    }
+    .navbar ul li {
+        margin-left: 50px;
+    }
+    .navbar ul li:last-child {
+        margin-right: 170px;
+    }
+    .navbar .imagediv{
+        width:30%;
+        height: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .navbar .imagediv img {
+        height: 100%;
+    }
+}
+@media only screen and (max-width: 699px) {
+    .navbar {
+        margin:0;
+        padding:0;
+        background-color: red;
+    }
+}
