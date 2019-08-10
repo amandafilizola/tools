@@ -49,12 +49,15 @@
         display: none;
     }
     .navbar {
+        width: 100%;
         margin:0;
         padding:0;
-        border-bottom: 1px solid black;
+        display: inline-block;
+        box-sizing: border-box;
+        box-shadow: 0 1px 17px black;
     }
     .navbar .imagediv{
-        width:30%;
+        width:200px;
         height: 80px;
         display: flex;
         justify-content: center;
@@ -143,6 +146,7 @@
         position: absolute;
         width: 300px;
         margin: -100px 0 0 -250px;
+        display: none;
         padding: 50px;
         padding-top: 125px;
         background: #ededed;
@@ -161,5 +165,6 @@
     #menuToggle input:checked ~ ul
     {
         transform: none;
+        display: block;
     }
 }
