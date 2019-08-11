@@ -1,0 +1,53 @@
+#consultoria { background-image: url("../../../assets/consgestao.jpg");}
+#treinamento { background-image: url("../../../assets/constraining.jpg");}
+#coach { background-image: url("../../../assets/imagemdeconsultoria.jpg");}
+#webdesign{ background-image: url("../../../assets/designweb.png");}
+
+#servicos{
+    height: 800px;
+    width: 100%;
+    display: flex;
+}
+.card {
+    font-family: 'Century Gothic';
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:#fbf9fc;
+    transition: 1s;
+}
+.card h2 {
+    margin-top:0;
+}
+.cordocard {
+    height: 100%;
+    background-color: rgba(41,22,111,0.6);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+@media only screen and (min-width: 700px) {
+    #servicos {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .card {
+        height: 50%;
+        width: 50%;
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 699px) {
+    #servicos{
+        flex-direction: column;
+    }
+    .card {
+        height: 25%;
+        width: 100%;
+        font-size: 12px;
+    }
+    .card h1 {
+        margin:0;
+    }
+
+}
