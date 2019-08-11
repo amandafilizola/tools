@@ -2,6 +2,10 @@
     font-family: 'Century Gothic';
     width: 100%;
 }
+.listadesktop a {
+    text-decoration: none;
+    color: #29166f;
+}
 @media only screen and (min-width: 700px) {
     nav {
         display: none;
