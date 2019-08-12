@@ -48,6 +48,7 @@ form {
 form input, form textarea {
     width: 100%;
     margin: 5px;
+    outline-width: 0;
 }
 form textarea {
     resize: none;
@@ -72,6 +73,17 @@ form button:hover {
     width: 130px;
     height: 50px;
 }
+.creditos {
+    font-size: 15px;
+    font-family: 'Century Gothic';
+    width: 100%;
+    background-color: #1f1a17;
+    color:#fbf9fc;;
+}
+.creditos p {
+    margin:0;
+    padding: 15px 0;
+}
 @media only screen and (min-width: 700px) {
     #contato {
         flex-direction: row;
@@ -80,14 +92,15 @@ form button:hover {
         width: 40%;
     }
     form input, form textarea {
-        height: 40px;
+        height: 30px;
         border-radius: 10px;
+        padding: 3px;
     }
     form textarea {
-        height: 320px;
+        height: 315px;
     }
     form input::placeholder, form textarea::placeholder, form input, form textarea{
-        font-size: 25px;
+        font-size: 20px;
     }
 }
 @media only screen and (max-width: 699px) {

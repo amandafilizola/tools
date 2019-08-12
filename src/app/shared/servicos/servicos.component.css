@@ -41,6 +41,9 @@
         width: 50%;
         font-size: 20px;
     }
+    .card .cordocard h2 {
+        font-size: 20px;
+    }
 }
 @media only screen and (max-width: 699px) {
     #servicos{
