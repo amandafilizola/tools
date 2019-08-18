@@ -1,5 +1,5 @@
 <?php
-$to='amandapaivafilizola@gmail.com';
+$to='filizola.bruno@gmail.com';
 $subject='Contato por Email - Site TooLss';
 $message=$_POST['mensagem'];
 $nome =$_POST['nome'];
